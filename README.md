@@ -2,8 +2,6 @@
 
 This project is part of the **Computer Architecture (EE3043)** course at VNU-HCM University of Technology. The objective of Milestone 1 is to design a vending machine using Verilog and FSM concepts.
 
-## 👤 Author
-- Nguyễn Hoàng Sang – 2212910 – L01
 
 ## 📚 Problem Statement
 Design a vending machine that:
@@ -30,6 +28,6 @@ Using Icarus Verilog:
 iverilog -o vending.vvp src/vending_machine.v tb/vending_machine_tb.v
 vvp vending.vvp
 gtkwave waveform/vending.vcd
-
-## ✅ Output Verification
+```
+✅ Output Verification
 All test cases pass. o_soda and o_change match expected outputs.
