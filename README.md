@@ -25,7 +25,7 @@ gtkwave waveform/vending.vcd
 ```
 
 ## FSM state diagram 
-![image](https://github.com/user-attachments/assets/ec190583-bca8-4954-907a-bab60ac38dbb)
+![image](https://github.com/user-attachments/assets/5721d62c-b575-4fb4-a5b8-d7b5bb8b6094)
 
 
 ## Waveform after all testcase
