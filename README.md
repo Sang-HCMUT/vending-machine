@@ -15,12 +15,6 @@ Design a vending machine that:
 - Modular and clean code structure
 - Handles edge cases like overpayment and exact amount
 
-## 📁 Project Structure
-- `src/`: Verilog module
-- `tb/`: Testbench and simulation
-- `waveform/`: GTKWave output files
-- `report/`: Final milestone report
-- `fsm-diagram/`: Visual FSM diagram
 
 ## 🛠️ How to Simulate
 Using Icarus Verilog:
@@ -29,5 +23,15 @@ iverilog -o vending.vvp src/vending_machine.v tb/vending_machine_tb.v
 vvp vending.vvp
 gtkwave waveform/vending.vcd
 ```
+
+## FSM state diagram 
+![image](https://github.com/user-attachments/assets/6dda381a-3c26-4bf3-bf99-dd220c3929f1)
+
+
+## Waveform after all testcase
+![image](https://github.com/user-attachments/assets/808f23b9-0d4b-4b29-95f2-386567de8b2d)
+
+
+
 ✅ Output Verification
 All test cases pass. o_soda and o_change match expected outputs.
